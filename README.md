@@ -76,16 +76,19 @@
 
 ## 🛠️ Steps of Execution <a name="ExecutionSteps"></a>
 
-1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
+1.Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
 git clone https://github.com/Michaellzd/cheapBuy_new.git
 ```
-2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
+2.This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
 ```
 pip install -r requirements.txt
 ```
-3. Check out the demo video to know about the use of the website in the media files.
-4. To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
+3.Register an account at mailgun. And applied an API key and use in in mailgun.py [Mailgun](https://www.mailgun.com/) 
+ 
+4.Check out the demo video to know about the use of the website in the media files.
+
+5.To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
 ```
 streamlit run cheapBuy_user_interface.py
 ```
