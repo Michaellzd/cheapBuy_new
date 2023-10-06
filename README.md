@@ -4,7 +4,6 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645496.svg)](https://doi.org/10.5281/zenodo.5645496)
 [![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
-[![Build Status](https://app.travis-ci.com/anshulp2912/cheapBuy.svg?branch=main)](https://app.travis-ci.com/anshulp2912/cheapBuy)
 [![Python Style Checker](https://github.com/freakleesin/cheapBuy/actions/workflows/style_checker.yml/badge.svg)](https://github.com/freakleesin/cheapBuy/actions/workflows/style_checker.yml)
 [![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/freakleesin/cheapBuy/actions/workflows/unit_test.yml)
 [![Lint Python](https://github.com/freakleesin/cheapBuy/actions/workflows/main.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml)
@@ -46,12 +45,6 @@
    
 </p>
 
-
-<h1 align="center">
- <img src="https://github.com/freakleesin/cheapBuy/blob/main/media/saveMoney2.gif" />
-</h1>
-
-
 <h1 align="center">
   cheapBuy
 </h1>
@@ -74,9 +67,7 @@
 ## 📖 Introduction <a name="Introduction"></a>
 
 **cheapBuy** provides you an easy way to buy any product through your favourite website's like Amazon, Walmart, Ebay, Costco, etc, while providing prices comparison from same product from different websites. Usually, it takes lot of time to do price comparison by checking different websites. However, you can instead add our extension **cheapBuy** and it will automatically fetch you price of the same product from different websites which you can then directly compare. This extension will not only save you time, but also save you money! Overall, **cheapBuy** is an one stop solution to buy the cheapest product online.
-<h2 align="center">
- <img src= "https://github.com/anshulp2912/cheapBuy/blob/main/media/Drake_BF_meme.gif" width="500"/>
-</h2>
+
 
 ## 🧐 Features <a name="Features"></a>
 - **Price Comparison**
@@ -160,7 +151,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
-## 👥 Team Members <a name="TeamMember"></a>
+## 👥 Team Members(Group 30) <a name="TeamMember"></a>
 Jack Hou	
 
 Zhendong Lu	
