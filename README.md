@@ -17,13 +17,13 @@
 <img src="https://img.shields.io/github/license/freakleesin/cheapBuy?style=flat-square" alt="cheapBuy license" />
     
 </a>
-<a href="https://github.com/freakleesin/cheapBuy/fork" target="blank">
+<a href="https://github.com/Michaellzd/cheapBuy_new/fork" target="blank">
 <img src="https://img.shields.io/github/forks/freakleesin/cheapBuy?style=flat-square" alt="cheapBuy forks"/>
 </a>
-<a href="https://github.com/freakleesin/cheapBuy/stargazers" target="blank">
+<a href="https://github.com/Michaellzd/cheapBuy_new/stargazers" target="blank">
 <img src="https://img.shields.io/github/stars/freakleesin/cheapBuy?style=flat-square" alt="gcheapBuy stars"/>
 </a>
-<a href="https://github.com/freakleesin/cheapBuy/issues" target="blank">
+<a href="https://github.com/Michaellzd/cheapBuy_new/issues" target="blank">
 <img src="https://img.shields.io/github/issues/freakleesin/cheapBuy?style=flat-square" alt="cheapBuy issues"/>
 </a>
 <a href="https://github.com/freakleesin/cheapBuy/issues" target="blank">
