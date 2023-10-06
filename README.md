@@ -53,16 +53,11 @@
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Features](#Features)
-- [Demo](#Demo)
 - [Installation Steps](#ExecutionSteps)
-- [Plan of Action](#PlanofAction)
-  - [Phase 1](#Phase1)
-  - [Phase 2](#Phase2)
-  - [Phase 3](#Phase3)
+- [Project 2 (Score cards and video)](#Proj2)
+- [Team Members](#TeamMember)
 - [License](#License)
 - [Contributing](#Contributing)
-- [Team Members](#TeamMember)
-- [Project 2(Score cards and video)](#Proj2)
 - [Acknowledgements](#Acknowledgement)
 
 ## 📖 Introduction <a name="Introduction"></a>
@@ -74,6 +69,9 @@
 - **Price Comparison**
 - **Get alternative website for the product**
 - **Highlight Cheapest product**
+- **Send Cheapest product to users' emails**(New feature compared to previous project!)
+- **Regularly crawl information and send desired products to customers via email.** (New feature compared to previous project!)
+
 
 
 ## 🛠️ Steps of Execution <a name="ExecutionSteps"></a>
@@ -81,7 +79,6 @@
 1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
 git clone https://github.com/Michaellzd/cheapBuy_new.git
-cd cheapBuy
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
 ```
@@ -92,67 +89,13 @@ pip install -r requirements.txt
 ```
 streamlit run cheapBuy_user_interface.py
 ```
+## 📝 Project 2(Score card and video!) <a name="Proj2"></a>
+<span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
 
-## 📅 Plan of Action <a name="PlanofAction"></a>
-### PHASE-1✅ <a name="Phase1"></a>
-1. Fetching descirption of the user's current tab for ebay.
-2. Fetching descirption of the user's current tab for Walmart.
-3. Fetching descirption of the user's current tab for amazon.
-4. Fetching descirption of the user's current tab for Bjs.
-5. Fetching descirption of the user's current tab for Costco.
-6. Web Scrapping various product details from Amazon.
-7. Web Scrapping various product details from Ebay.
-8. Exception handling of web scrapping.
-9. Server API for web scrapping.
-10. Deploying server on AWS.
-11. Build an extension for this price comparison.
-12. Extract knowledge like prices, sites, URL, comparison, description from scrapped data.
-13. Show all the scrapped data and the knowledge gained on the extension page.
 
-### PHASE-2 ✅ <a name="Phase2"></a>
-1. Develop a website instead of extension.
-2. Improvement of extension UI.
-3. Highlight the cheapest option available.
-4. Code restructuring.
-5. Improve accuracy of the product. Example : If user's current tab is having Television of a particular brand and there is a better option available at a cheaper or comparable rate than provide alternative product accordingly.
-6. Web Scrapping various product details from Walmart.
-7. Web Scrapping various product details from Costco.
-8. Web Scrapping various product details from BJs.
-9. Improve code execution speed using multithreading.
+## 👥 Team Members <a name="TeamMember"></a>
+###Group 30:
 
-### PHASE-3 ✅ <a name="Phase3"></a>
-1. Fetching descirption of the user's current tab for Bestbuy.
-2. Fetching descirption of the user's current tab for Trader Joes.
-3. Fetching descirption of the user's current tab for Kroger.
-4. Web Scrapping various product details from Bestbuy.
-5. Web Scrapping various product details from Trader Joes.
-6. Web Scrapping various product details from Kroger.
-7. Improve code execution speed using multiprocessing.
-8. Improve website UI.
-9. Add sidebar.
-10. Users can choose the selected website and price range.
-11. Improve the accuracy of searching products.
-12. Link buttons for all websites.
-
-### PHASE-4 ⌛ <a name="Phase3"></a>
-1. Automatic deployment of server using Teraform or ansible.
-2. Dashboard including how many user's click on the website.
-3. Email notification of the available coupon to the user.
-4. Alternate product suggestion feature.
-5. Show a available coupon on other shopping website.
-6. Add more websites webScrapping .
-
-🌟 You are all set! 🌟
-
-## 📝 License <a name="License"></a>
-This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/cheapBuy/blob/main/LICENSE) for more details.
-
-## 🍰 Contributing <a name="Contributing"></a>
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/anshulp2912/cheapBuy/compare).
-
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## 👥 Team Members(Group 30) <a name="TeamMember"></a>
 Jack Hou	
 
 Zhendong Lu	
@@ -161,9 +104,14 @@ Feng Wang
 
 Enxi Zhang
 
-## Project 2(Score card and video!) <a name="Proj2"></a>
-<span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
 
+## 📝 License <a name="License"></a>
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/cheapBuy/blob/main/LICENSE) for more details.
+
+## 🍰 Contributing <a name="Contributing"></a>
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/anshulp2912/cheapBuy/compare).
+
+Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## 🙏 Acknowledgements <a name="Acknowledgement"></a>
 We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank all the teaching assistants for their support throughout the project.
