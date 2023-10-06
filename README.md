@@ -1,5 +1,4 @@
-[![cheapBuy Project 3 DEMO](https://github.com/freakleesin/cheapBuy/blob/main/media/cheapbuy.png)](https://www.youtube.com/watch?v=-P3LxID5QzA)
-## ⬆️ Click on the icon above to see the new video
+
 
 
 
@@ -43,9 +42,8 @@
 
 
 <p align="center">
-    <a href="https://github.com/anshulp2912/cheapBuy/issues/new/choose">Report Bug</a>
-    ·
-    <a href="https://github.com/anshulp2912/cheapBuy/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/Michaellzd/cheapBuy_new/issues/new/choose">Report Bug</a>
+   
 </p>
 
 
@@ -70,11 +68,12 @@
 - [License](#License)
 - [Contributing](#Contributing)
 - [Team Members](#TeamMember)
+- [Project 2(Score cards and video)](#Proj2)
 - [Acknowledgements](#Acknowledgement)
 
 ## 📖 Introduction <a name="Introduction"></a>
 
-**cheapBuy Extension** provides you an easy way to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, while providing prices comparison from same product from different websites. Usually, it takes lot of time to do price comparison by checking different websites. However, you can instead add our extension **cheapBuy** and it will automatically fetch you price of the same product from different websites which you can then directly compare. This extension will not only save you time, but also save you money! Overall, **cheapBuy** is an one stop solution to buy the cheapest product online.
+**cheapBuy** provides you an easy way to buy any product through your favourite website's like Amazon, Walmart, Ebay, Costco, etc, while providing prices comparison from same product from different websites. Usually, it takes lot of time to do price comparison by checking different websites. However, you can instead add our extension **cheapBuy** and it will automatically fetch you price of the same product from different websites which you can then directly compare. This extension will not only save you time, but also save you money! Overall, **cheapBuy** is an one stop solution to buy the cheapest product online.
 <h2 align="center">
  <img src= "https://github.com/anshulp2912/cheapBuy/blob/main/media/Drake_BF_meme.gif" width="500"/>
 </h2>
@@ -84,15 +83,12 @@
 - **Get alternative website for the product**
 - **Highlight Cheapest product**
 
-## 🚀 Demo <a name="Demo"></a>
-The project is deployed on Streamlit cloud:
-- [Streamlit](https://share.streamlit.io/anshulp2912/cheapbuy/main/cheapBuy_user_interface.py)
 
 ## 🛠️ Steps of Execution <a name="ExecutionSteps"></a>
 
 1. Clone the github repository at the preferable location in your local machine. You will need git to be preinstalled in the system. Once the repository is cloned in your system, with the help of cd command ,
 ```
-git clone https://github.com/freakleesin/cheapBuy.git
+git clone https://github.com/Michaellzd/cheapBuy_new.git
 cd cheapBuy
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of the requirements.
@@ -165,20 +161,20 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## 👥 Team Members <a name="TeamMember"></a>
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/freakleesin"><img src="https://avatars.githubusercontent.com/u/44102063?v=4" width="75px;" alt=""/><br /><sub><b>Rundi Liu</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Mahaoqu"><img src="https://avatars.githubusercontent.com/u/24971537?v=4" width="75px;" alt=""/><br /><sub><b>Haoqv Ma</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/zhijin44"><img src="https://avatars.githubusercontent.com/u/89488910?v=4" width="75px;" alt=""/><br /><sub><b>Zhijin Yang</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/SamuelVivivi"><img src="https://avatars.githubusercontent.com/u/10951700?v=4" width="75px;" alt=""/><br /><sub><b>Guanyu Hou</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/joshlin5"><img src="https://avatars.githubusercontent.com/u/47061522?v=4" width="75px;" alt=""/><br /><sub><b>Joshua Lin</b></sub></a><br /></td>
-  </tr>
-</table>
+Jack Hou	
+
+Zhendong Lu	
+
+Feng Wang
+
+Enxi Zhang
+
+## Project 2(Score card and video!) <a name="Proj2"></a>
+<span style="color:blue">[Project 2 Readme !](proj2/Readme.md)</span>
+
 
 ## 🙏 Acknowledgements <a name="Acknowledgement"></a>
-We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
-We would also like to extend our gratitude to previous group : https://github.com/het-patel99/cheapBuy
+We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank all the teaching assistants for their support throughout the project.
+We would also like to extend our gratitude to previous group : https://github.com/rliu9/cheapBuy
 - [https://streamlit.io/](https://streamlit.io/)
-- [https://shields.io/](https://shields.io/)
-- [https://www.powtoon.com/](https://www.powtoon.com/)
 <br>

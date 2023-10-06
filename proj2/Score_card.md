@@ -29,7 +29,7 @@ Total:74
 | Test cases are routinely executed                            | 3               |                                                      |
 | The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up | 2               |                                                      |
 | Issues are discussed before they are closed                  | 3               |                                                      |
-| Chat channel: exists                                         | 3               | in GH, use email to contact for the project                                                     |
+| Chat channel: exists                                         | 3               | in GH, use issue to report any bugs for the project                                                     |
 | Test cases: a large proportion of the issues related to handling failing cases. | 2               | in GH                                                |
 | Evidence that the whole team is using the same tools: everyone can get to all tools and files | 2               |                                                      |
 | Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) | 3               | in GH                                                |
