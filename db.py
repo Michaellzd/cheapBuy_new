@@ -23,7 +23,7 @@ cursor.execute('''
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
-    url VARCHAR(255) NOT NULL
+    url TEXT NOT NULL
 
 )
 ''')

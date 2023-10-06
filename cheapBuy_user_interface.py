@@ -155,6 +155,8 @@ if url:
 
         send_email_via_mailgun(email, subject, email_content)
         conn, cursor = create_connection()
+        email = str(email)
+        url = str(url)
         add_user(email, url,cursor,conn)
         close_connection(cursor, conn)
 
