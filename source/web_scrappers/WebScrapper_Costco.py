@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from source.utils.url_shortener import shorten_url
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 sys.path.append('../')
 
@@ -81,10 +82,12 @@ class WebScrapper_Costco:
         """ 
         Returns Chrome Driver
         """
-        options = webdriver.ChromeOptions()
+        # Prepare driver for scrapping
+
+        options = webdriver.FirefoxOptions()
         options.headless = True
-        driver = webdriver.Chrome(
-            options=options, executable_path=ChromeDriverManager().install())
+        driver_path = "D:\\510\\1\\geckodriver-v0.33.0-win64\\geckodriver.exe"
+        driver = webdriver.Firefox(options=options, executable_path=driver_path)
         return driver
 
     def get_url_costco(self):
