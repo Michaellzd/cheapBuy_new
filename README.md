@@ -94,7 +94,7 @@ streamlit run cheapBuy_user_interface.py
 
 
 ## 👥 Team Members <a name="TeamMember"></a>
-###Group 30:
+Group 30:
 
 Jack Hou	
 
