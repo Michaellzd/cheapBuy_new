@@ -15,7 +15,7 @@ import sys
 
 from mailgun import send_email_via_mailgun
 
-
+from db_op import *
 
 sys.path.append('../')
 
@@ -154,6 +154,9 @@ if url:
             email_content += f"Website: {s}, Price: ${p}, Link: {u}\n"
 
         send_email_via_mailgun(email, subject, email_content)
+        conn, cursor = create_connection()
+        add_user(email, url,cursor,conn)
+        close_connection(cursor, conn)
 
     elif not description or not url or not price or not site:
         st.error('Sorry, there is no product on your selected options.')

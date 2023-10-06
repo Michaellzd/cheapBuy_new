@@ -1,22 +1,23 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
 from source.web_scrappers.WebScrapper import WebScrapper
-from db_op import cursor, conn
+from db_op import *
 from mailgun import send_email_via_mailgun
 
 sched = BlockingScheduler()
 
-@sched.scheduled_job('interval', minutes=10)  # 每24小时执行一次
+@sched.scheduled_job('interval', minutes=1)  # 1min per round
 def timed_job():
     def timed_job():
-        # 1. 获取所有用户及其URL
+        # 1. url user
         try:
+            conn,cursor=create_connection()
             cursor.execute("SELECT email, url FROM users")
             users = cursor.fetchall()
         except Exception as e:
             print(f"Error fetching from database: {e}")
             return
 
-        # 2. 对每个用户的URL进行爬取
+        # 2. parse url
         for user in users:
             email, user_url = user
             try:
