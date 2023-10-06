@@ -162,7 +162,7 @@ Feng Wang
 Enxi Zhang
 
 ## Project 2(Score card and video!) <a name="Proj2"></a>
-<span style="color:blue">[Project 2 Readme !](proj2/Readme.md)</span>
+<span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
 
 
 ## 🙏 Acknowledgements <a name="Acknowledgement"></a>
