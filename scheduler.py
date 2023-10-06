@@ -32,7 +32,7 @@ def timed_job():
             for result in results:
                 if result:
                     try:
-                        if price_min <= float(result['price'][1:]) <= price_max:
+                        if 0.0 <= float(result['price'][1:]) <= float('inf'):
                             description.append(result['description'])
                             url.append(result['url'])
                             price.append(float(result['price'].strip('$').rstrip('0')))
@@ -41,7 +41,7 @@ def timed_job():
                         print(f"Error processing scraped data: {e}")
                         continue
 
-            # 3. 发送邮件给用户
+            # 3. send email
             if len(price):
                 subject = "Your cheapBuy Results Update"
                 email_content = f"Here are the updated results for {user_url}:\n\n"
