@@ -12,6 +12,11 @@ from source.web_scrappers.WebScrapper import WebScrapper
 import os
 import streamlit as st
 import sys
+
+from mailgun import send_email_via_mailgun
+
+
+
 sys.path.append('../')
 
 title = '<p style="font-family:Bradley Hand, cursive; color:#64b3f4; font-size: 157px;">cheapBuy</p>'
@@ -24,7 +29,7 @@ url_sidebar = st.sidebar.text_input('Quick Action: Open a new page')
 st.sidebar.image("media/saveMoney2.gif")
 st.sidebar.title("Customize Options Here:")
 sites = st.sidebar.selectbox("Select the website:", ("All Sites",
-                             "amazon", "walmart", "ebay", "bjs", "costco", "bestbuy", "traderjoes", "kroger"))
+                             "amazon", "walmart", "ebay", "costco", "bestbuy"))
 
 price_range = st.sidebar.selectbox("Select the price range:", (
     "all", "Under $50", "[$50, $100)", "[$100, $150)", "[$150, $200)", "$200 & Above"))
@@ -47,9 +52,10 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # Display Image
 
-st.sidebar.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites")
+st.sidebar.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Costco, etc, by providing prices of the same product from all different websites")
 #st.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites")
 url = st.text_input('Enter the product website link')
+email = st.text_input('Enter your email address to get the results')
 
 
 def price_filter(price_range):
@@ -142,6 +148,13 @@ if url:
                 if st.button(s):
                     webbrowser.open(u)
 
+        subject = "Your cheapBuy Results"
+        email_content = f"Here are your results for {url}:\n\n"
+        for s, u, p in zip(site, url, price):
+            email_content += f"Website: {s}, Price: ${p}, Link: {u}\n"
+
+        send_email_via_mailgun(email, subject, email_content)
+
     elif not description or not url or not price or not site:
         st.error('Sorry, there is no product on your selected options.')
     else:
@@ -175,12 +188,6 @@ text-align: center;
 <div class="footer">
 <p><a style='display: block; text-align: center;' href="https://github.com/freakleesin/cheapBuy" target="_blank">Developed with ❤ by cheapBuy</a></p>
 <p><a style='display: block; text-align: center;' href="https://github.com/freakleesin/cheapBuy/blob/main/LICENSE" target="_blank">MIT License Copyright (c) 2021 cheapBuy</a></p>
-<p>Contributors: 
-<a href="https://github.com/Mahaoqu" target="_blank">Haoqu</a>, 
-<a href="https://github.com/joshlin5" target="_blank">Joshua</a>, 
-<a href="https://github.com/zhijin44" target="_blank">Zhijin</a>, 
-<a href="https://github.com/SamuelVivivi" target="_blank">Guanyu</a>, 
-<a href="https://github.com/freakleesin" target="_blank">Rundi</a>
 </div>
 """
 
