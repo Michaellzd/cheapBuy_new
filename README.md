@@ -7,6 +7,9 @@
 [![DOI](https://zenodo.org/badge/701486893.svg)](https://zenodo.org/badge/latestdoi/701486893)
 ![Code Linting](https://github.com/Michaellzd/cheapBuy_new/workflows/Code%20Linting/badge.svg)
 [![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
+![Static Badge](https://img.shields.io/badge/black-black.svg?label=Code%20formatters)
+![Static Badge](https://img.shields.io/badge/flake-blue.svg?label=Style%20Checkers)
+![Static Badge](https://img.shields.io/badge/flake-redl.svg?label=Syntax%20Checkers)
 
 
 
@@ -56,6 +59,8 @@
 - [License](#License)
 - [Contributing](#Contributing)
 - [Acknowledgements](#Acknowledgement)
+- [Contact Us](#Contact)
+
 
 ## 📖 Introduction <a name="Introduction"></a>
 
@@ -118,3 +123,12 @@ We would like to thank Professor Dr Timothy Menzies for helping us understand th
 We would also like to extend our gratitude to previous group : https://github.com/rliu9/cheapBuy
 - [https://streamlit.io/](https://streamlit.io/)
 <br>
+
+## 📇 Contact US <a name="Contact"></a>
+
+For any inquiries, you can reach out to us via email:
+
+- [735955506@qq.com](mailto:1.735955506@qq.com)
+- [fwang32@ncsu.edu](mailto:fwang32@ncsu.edu)
+- [yhou8@ncsu.edu](mailto:yhou8@ncsu.edu)
+- [1gabriel.zhang1@gmail.com](mailto:1gabriel.zhang1@gmail.com)
