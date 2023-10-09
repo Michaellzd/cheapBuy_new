@@ -1,6 +1,6 @@
-
-
-
+<h1 align="center">
+  cheapBuy_New
+</h1>
 
 
 
@@ -32,13 +32,10 @@
 </a>
 <a href="https://github.com/freakleesin/cheapBuy/pulls" target="blank">
 <img src="https://img.shields.io/github/issues-pr/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
-</a>
-<a href="https://github.com/freakleesin/cheapBuy/milestones" alt="milestones">
-<img src="https://img.shields.io/github/milestones/all/freakleesin/cheapBuy" /></a> 
-<a href="https://github.com/freakleesin/cheapBuy/graphs/commit-activity" alt="commit activity">
-<img src="https://img.shields.io/github/commit-activity/w/freakleesin/cheapBuy" /></a> 
-<a href="https://img.shields.io/github/repo-size/freakleesin/cheapBuy" alt="repo size">
-<img src="https://img.shields.io/github/repo-size/freakleesin/cheapBuy" /></a>
+<a href="https://github.com/Michaellzd/cheapBuy_new/graphs/commit-activity" alt="commit activity">
+<img src="https://img.shields.io/github/commit-activity/w/Michaellzd/cheapBuy_new" /></a> 
+<a href="https://img.shields.io/github/repo-size/Michaellzd/cheapBuy_new" alt="repo size">
+<img src="https://img.shields.io/github/repo-size/Michaellzd/cheapBuy_new" /></a>
 
 
 
@@ -46,9 +43,6 @@
     <a href="https://github.com/Michaellzd/cheapBuy_new/issues/new/choose">Report Bug</a>
 </p>
 
-<h1 align="center">
-  cheapBuy
-</h1>
 
 ## Table of Contents
 - [Introduction](#Introduction)
