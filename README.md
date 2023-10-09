@@ -2,13 +2,11 @@
 
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645496.svg)](https://doi.org/10.5281/zenodo.5645496)
+
+
+[![DOI](https://zenodo.org/badge/701486893.svg)](https://zenodo.org/badge/latestdoi/701486893)
 ![Code Linting](https://github.com/Michaellzd/cheapBuy_new/workflows/Code%20Linting/badge.svg)
 [![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
-[![Python Style Checker](https://github.com/freakleesin/cheapBuy/actions/workflows/style_checker.yml/badge.svg)](https://github.com/freakleesin/cheapBuy/actions/workflows/style_checker.yml)
-[![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/freakleesin/cheapBuy/actions/workflows/unit_test.yml)
-[![Lint Python](https://github.com/freakleesin/cheapBuy/actions/workflows/main.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml)
-[![Running Code Coverage](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml/badge.svg)](https://github.com/freakleesin/cheapBuy/actions/workflows/code_cov.yml)
 
 
 
@@ -24,10 +22,10 @@
 <img src="https://img.shields.io/github/stars/freakleesin/cheapBuy?style=flat-square" alt="gcheapBuy stars"/>
 </a>
 <a href="https://github.com/Michaellzd/cheapBuy_new/issues" target="blank">
-<img src="https://img.shields.io/github/issues/freakleesin/cheapBuy?style=flat-square" alt="cheapBuy issues"/>
+<img src="https://img.shields.io/github/issues/Michaellzd/cheapBuy_new?style=flat-square" alt="cheapBuy issues"/>
 </a>
 <a href="https://github.com/freakleesin/cheapBuy/issues" target="blank">
-<img src="https://img.shields.io/github/issues-closed/freakleesin/cheapBuy" alt="cheapBuy issues closed"/>
+<img src="https://img.shields.io/github/issues-closed/Michaellzd/cheapBuy_new" alt="cheapBuy issues closed"/>
 </a>
 <a href="https://github.com/freakleesin/cheapBuy/pulls" target="blank">
 <img src="https://img.shields.io/github/issues-pr/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
@@ -43,7 +41,6 @@
 
 <p align="center">
     <a href="https://github.com/Michaellzd/cheapBuy_new/issues/new/choose">Report Bug</a>
-   
 </p>
 
 <h1 align="center">
