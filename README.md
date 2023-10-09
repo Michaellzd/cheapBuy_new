@@ -49,6 +49,7 @@
 - [Features](#Features)
 - [Installation Steps](#ExecutionSteps)
 - [Project 2 (Score cards and video)](#Proj2)
+- [Roadmap](#Roadmap)
 - [Team Members](#TeamMember)
 - [License](#License)
 - [Contributing](#Contributing)
@@ -90,6 +91,83 @@ streamlit run cheapBuy_user_interface.py
 ```
 ## 📝 Project 2(Score card and video!) <a name="Proj2"></a>
 <span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
+
+## 📝 Roadmap <a name="Roadmap"></a>
+
+### Phase 1: Planning and Research
+
+#### Market Research and Analysis
+- Identify the target audience and their needs.
+- Analyze competitors and similar browser extensions.
+- Determine potential revenue streams and business models.
+
+#### Feature Definition
+- Finalize the list of features based on research.
+- Prioritize features based on their importance and feasibility.
+
+#### Technology Stack Selection
+- Choose the technology stack for extension development.
+- Set up development environments and tools.
+
+### Phase 2: Development
+
+#### Core Functionality Development
+- Develop the extension's core functionality for price comparison.
+- Implement the ability to fetch product prices from different websites.
+
+#### Website Integration
+- Integrate with popular e-commerce websites like Amazon, Walmart, eBay, Costco, etc.
+- Implement web scraping and data retrieval mechanisms.
+
+#### User Interface Design
+- Design a user-friendly interface for the extension.
+- Ensure a seamless user experience during price comparison.
+
+#### Email Integration
+- Develop the feature to send the cheapest product information to users' emails.
+
+### Phase 3: Testing
+- Testing and Quality Assurance
+- Conduct extensive testing to identify and fix bugs.
+- Ensure compatibility with various web browsers.
+
+### Phase 4: Launch
+
+#### Soft Launch and User Feedback
+- Release a beta version of the extension to a limited audience.
+- Gather user feedback and make necessary improvements.
+
+#### Full Launch
+- Launch the extension to the wider public.
+- Promote it through various marketing channels.
+
+### Phase 5: Post-Launch
+
+#### Monitoring and Maintenance
+- Continuously monitor the extension's performance and user feedback.
+- Regularly update the extension to fix issues and add new features.
+
+#### Regular Data Crawling (Ongoing)
+- Set up a system for regular data crawling to keep prices up-to-date.
+- Implement mechanisms to handle changes in website structures.
+
+#### User-Requested Product Alerts (4 weeks)
+- Develop a feature that allows users to request alerts for specific products.
+- Send alerts to users' emails when desired products meet their specified criteria.
+
+
+### Phase 6: Scaling and Growth
+
+#### Expansion (Ongoing)
+- Consider expanding to more e-commerce websites and markets.
+- Explore partnerships with retailers for data access.
+
+#### Mobile App Integration (8 weeks)
+- Develop a mobile app version of cheapBuy for a broader user base.
+
+#### User Engagement and Marketing (Ongoing)
+- Continuously work on user engagement and marketing strategies to grow the user base.
+
 
 
 ## 👥 Team Members <a name="TeamMember"></a>
