@@ -196,6 +196,7 @@ We would also like to extend our gratitude to previous group : https://github.co
 - [https://streamlit.io/](https://streamlit.io/)
 <br>
 
+
 ## 📇 Contact US <a name="Contact"></a>
 
 For any inquiries, you can reach out to us via email:
@@ -204,3 +205,6 @@ For any inquiries, you can reach out to us via email:
 - [fwang32@ncsu.edu](mailto:fwang32@ncsu.edu)
 - [yhou8@ncsu.edu](mailto:yhou8@ncsu.edu)
 - [1gabriel.zhang1@gmail.com](mailto:1gabriel.zhang1@gmail.com)
+
+## 🪧 Poster
+![Poster](media/poster.png)
