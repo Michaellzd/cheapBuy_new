@@ -36,6 +36,7 @@ price_range = st.sidebar.selectbox("Select the price range:", (
 st.header("Website: " + sites.capitalize() +
           '| |' + "Price Range: " + price_range)
 #st.header("Price Range: " + price_range)
+showcancelemail=False
 
 
 if url_sidebar:
@@ -54,17 +55,10 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 st.sidebar.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Costco, etc, by providing prices of the same product from all different websites")
 #st.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites")
-delemail= st.sidebar.text_input("Unsubscribe from email service")
 
-if delemail:
-    conn, cursor = create_connection()
-    email = str(delemail)
-    delete_user(email, cursor, conn)
-    close_connection(cursor, conn)
 
 url = st.text_input('Enter the product website link')
 email = st.text_input('Enter your email address to get the results')
-
 
 def price_filter(price_range):
     #price_min, price_max = 0.0, 0.0
@@ -166,6 +160,7 @@ if url:
         email = str(email)
         url = str(url)
         add_user(email, url,cursor,conn)
+        showcancelemail=True
         close_connection(cursor, conn)
 
     elif not description or not url or not price or not site:
@@ -173,6 +168,14 @@ if url:
     else:
         st.error('Sorry, there is no other website with same product.')
 
+if(showcancelemail):
+    delemail = st.sidebar.text_input("Unsubscribe from email service")
+
+    if delemail:
+        conn, cursor = create_connection()
+        email = str(delemail)
+        delete_user(email, cursor, conn)
+        close_connection(cursor, conn)
 
 # Add footer to UI
 footer = """<style>
