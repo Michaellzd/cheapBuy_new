@@ -54,6 +54,14 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 st.sidebar.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Costco, etc, by providing prices of the same product from all different websites")
 #st.write("cheapBuy provides you ease to buy any product through your favourite website's like Amazon, Walmart, Ebay, Bjs, Costco, etc, by providing prices of the same product from all different websites")
+delemail= st.sidebar.text_input("Unsubscribe from email service")
+
+if delemail:
+    conn, cursor = create_connection()
+    email = str(delemail)
+    delete_user(email, cursor, conn)
+    close_connection(cursor, conn)
+
 url = st.text_input('Enter the product website link')
 email = st.text_input('Enter your email address to get the results')
 

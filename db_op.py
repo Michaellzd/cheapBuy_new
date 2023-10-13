@@ -30,6 +30,11 @@ def add_product_url(url, user_id, cursor, conn):
     cursor.execute("INSERT INTO product_urls (url, user_id) VALUES (%s, %s)", (url, user_id))
     conn.commit()
 
+def delete_user(email, cursor, conn):
+    cursor.execute("DELETE FROM users WHERE email = %s", (email,))
+    conn.commit()
+
+
 def close_connection(cursor, conn):
     cursor.close()
     conn.close()
