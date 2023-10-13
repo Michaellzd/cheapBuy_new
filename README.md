@@ -6,7 +6,6 @@
 
 [![DOI](https://zenodo.org/badge/701486893.svg)](https://zenodo.org/badge/latestdoi/701486893)
 ![Code Linting](https://github.com/Michaellzd/cheapBuy_new/workflows/Code%20Linting/badge.svg)
-[![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
 ![Static Badge](https://img.shields.io/badge/black-black.svg?label=Code%20formatters)
 ![Static Badge](https://img.shields.io/badge/flake-blue.svg?label=Style%20Checkers)
 ![Static Badge](https://img.shields.io/badge/flake-redl.svg?label=Syntax%20Checkers)
