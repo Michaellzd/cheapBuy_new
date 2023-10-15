@@ -133,12 +133,9 @@ streamlit run cheapBuy_user_interface.py
 ### Phase 4: Launch
 
 #### Soft Launch and User Feedback
-- Release a beta version of the extension to a limited audience.
+- Users can run the project.
 - Gather user feedback and make necessary improvements.
 
-#### Full Launch
-- Launch the extension to the wider public.
-- Promote it through various marketing channels.
 
 ### Phase 5: Post-Launch
 
@@ -146,7 +143,7 @@ streamlit run cheapBuy_user_interface.py
 - Continuously monitor the extension's performance and user feedback.
 - Regularly update the extension to fix issues and add new features.
 
-#### Regular Data Crawling (Ongoing)
+#### Regular Data Crawling
 - Set up a system for regular data crawling to keep prices up-to-date.
 - Implement mechanisms to handle changes in website structures.
 
