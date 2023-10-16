@@ -91,7 +91,7 @@ streamlit run cheapBuy_user_interface.py
 ## 📝 Project 2(Score card and video!) <a name="Proj2"></a>
 <span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
 
-## 📝 Roadmap <a name="Roadmap"></a>
+## 🗺️ Roadmap <a name="Roadmap"></a>
 
 ### Phase 1: Planning and Research
 
@@ -155,6 +155,7 @@ streamlit run cheapBuy_user_interface.py
 ### Phase 6: Scaling and Growth
 
 #### Expansion (Ongoing)
+- Post it online.
 - Consider expanding to more e-commerce websites and markets.
 - Explore partnerships with retailers for data access.
 
