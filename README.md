@@ -6,7 +6,6 @@
 
 [![DOI](https://zenodo.org/badge/701486893.svg)](https://zenodo.org/badge/latestdoi/701486893)
 ![Code Linting](https://github.com/Michaellzd/cheapBuy_new/workflows/Code%20Linting/badge.svg)
-[![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
 ![Static Badge](https://img.shields.io/badge/black-black.svg?label=Code%20formatters)
 ![Static Badge](https://img.shields.io/badge/flake-blue.svg?label=Style%20Checkers)
 ![Static Badge](https://img.shields.io/badge/flake-redl.svg?label=Syntax%20Checkers)
@@ -85,14 +84,24 @@ pip install -r requirements.txt
  
 4.Check out the demo video to know about the use of the website in the media files.
 
-5.To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
+5.To locally create a database to store users'info and url, we would recommend setting up an Anaconda Environment and running the command
+```
+python db.py
+```
+
+6.To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
 ```
 streamlit run cheapBuy_user_interface.py
+```
+
+7.To locally run the Scheduled Information Crawling and Email Sending Service, we would recommend running the command
+```
+python scheduler.py
 ```
 ## 📝 Project 2(Score card and video!) <a name="Proj2"></a>
 <span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
 
-## 📝 Roadmap <a name="Roadmap"></a>
+## 🗺️ Roadmap <a name="Roadmap"></a>
 
 ### Phase 1: Planning and Research
 
@@ -134,12 +143,9 @@ streamlit run cheapBuy_user_interface.py
 ### Phase 4: Launch
 
 #### Soft Launch and User Feedback
-- Release a beta version of the extension to a limited audience.
+- Users can run the project.
 - Gather user feedback and make necessary improvements.
 
-#### Full Launch
-- Launch the extension to the wider public.
-- Promote it through various marketing channels.
 
 ### Phase 5: Post-Launch
 
@@ -147,7 +153,7 @@ streamlit run cheapBuy_user_interface.py
 - Continuously monitor the extension's performance and user feedback.
 - Regularly update the extension to fix issues and add new features.
 
-#### Regular Data Crawling (Ongoing)
+#### Regular Data Crawling
 - Set up a system for regular data crawling to keep prices up-to-date.
 - Implement mechanisms to handle changes in website structures.
 
@@ -159,6 +165,7 @@ streamlit run cheapBuy_user_interface.py
 ### Phase 6: Scaling and Growth
 
 #### Expansion (Ongoing)
+- Post it online.
 - Consider expanding to more e-commerce websites and markets.
 - Explore partnerships with retailers for data access.
 
