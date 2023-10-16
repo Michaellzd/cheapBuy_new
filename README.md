@@ -84,9 +84,19 @@ pip install -r requirements.txt
  
 4.Check out the demo video to know about the use of the website in the media files.
 
-5.To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
+5.To locally create a database to store users'info and url, we would recommend setting up an Anaconda Environment and running the command
+```
+python db.py
+```
+
+6.To locally run the streamlit website, we would recommend setting up an Anaconda Environment and running the command
 ```
 streamlit run cheapBuy_user_interface.py
+```
+
+7.To locally run the Scheduled Information Crawling and Email Sending Service, we would recommend running the command
+```
+python scheduler.py
 ```
 ## 📝 Project 2(Score card and video!) <a name="Proj2"></a>
 <span style="color:blue">[Project 2 Readme !](proj2/README.md)</span>
