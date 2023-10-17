@@ -65,8 +65,8 @@
 - **Price Comparison**
 - **Get alternative website for the product**
 - **Highlight Cheapest product**
-- **Send Cheapest product to users' emails**(New feature compared to previous project!)
-- **Regularly crawl information and send desired products to customers via email.** (New feature compared to previous project!)
+- **Send Cheapest product to users' emails**
+- **Regularly crawl information and send desired products to customers via email.** 
 
 
 
