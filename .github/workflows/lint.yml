@@ -15,6 +15,25 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 coverage bs4
+    - name: Install dependencies and set up geckodriver
+      run: |
+        sudo apt-get update
+
+        # Install Firefox.
+        sudo apt-get install -y firefox
+
+        # Install geckodriver
+        GECKO_DRIVER_VERSION=`curl -sS https://api.github.com/repos/mozilla/geckodriver/releases/latest | jq -r .tag_name`
+        wget https://github.com/mozilla/geckodriver/releases/download/$GECKO_DRIVER_VERSION/geckodriver-$GECKO_DRIVER_VERSION-linux64.tar.gz
+        tar -xvzf geckodriver-$GECKO_DRIVER_VERSION-linux64.tar.gz
+        sudo mv geckodriver /usr/bin/geckodriver
+        sudo chown root:root /usr/bin/geckodriver
+        sudo chmod +x /usr/bin/geckodriver
+
+        # Install selenium
+        pip install selenium
+
+
     - name: Lint with flake8
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
