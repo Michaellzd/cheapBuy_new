@@ -53,9 +53,9 @@ Total:75
 | Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository? | Yes    | in GH, people can download                                   |
 | Is your software hosted in an established, third-party repository like GitHub, BitBucket, LaunchPad, or SourceForge? | Yes    | in GH                                                        |
 | Is your documentation clearly available on your website or within your software? | Yes    | in GH                                                        |
-| Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use? | Yes    | in GH                                                        |
+| Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use? | Yes    | there is a video to provide the short overview                                                        |
 | If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software? | Yes    |                                                              |
-| Do you provide a comprehensive guide to all your software’s commands, functions and options? | Yes    | They provided simple guide to                                |
+| Do you provide a comprehensive guide to all your software’s commands, functions and options? | Yes    | in GH                                |
 | Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? | No     |                                |
 | If your software can be used as a library, package or service by other software, do you provide comprehensive API documentation? | No     |                    |
 | Do you store your documentation under revision control with your source code? | Yes    | in GH                                                        |
@@ -64,8 +64,8 @@ Total:75
 | Does your website and documentation describe what support, if any, you provide to users and developers? | Yes    | Provide docs to support users and developers            |
 | Does your project have an e-mail address or forum that is solely for supporting users? | Yes     |                    |
 | Are e-mails to your support e-mail address received by more than one person? | Yes    | Povide email addresses to contact.                    |
-| Does your project have a ticketing system to manage bug reports and feature requests? | No     | no system to report any bugs.                                |
-| Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests? | No     |                                                              |
+| Does your project have a ticketing system to manage bug reports and feature requests? | Yes     | Users can report bugs in Github                                |
+| Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests? | Yes     |   Users can report bugs in Github                                                           |
 | Is your software’s architecture and design modular?          | Yes    |                                                              |
 | Does your software use an accepted coding standard or convention? | Yes    | Used code checker during the project.                   |
 | Does your software allow data to be imported and exported using open data formats? | Yes    |                                                              |
@@ -74,19 +74,19 @@ Total:75
 | Does your software adhere to appropriate accessibility conventions or standards? | Yes    |                                                              |
 | Does your documentation adhere to appropriate accessibility conventions or standards? | Yes    |                                                              |
 | Is your source code stored in a repository under revision control? | Yes    | Git                                                          |
-| Is each source code release a snapshot of the repository?    | No     | only some of them                                            |
+| Is each source code release a snapshot of the repository?    | No     |                                             |
 | Are releases tagged in the repository?                       | Yes    |                                                              |
 | Is there a branch of the repository that is always stable?   | Yes    | in GH                                                        |
 | Do you back-up your repository?                              | Yes    |                                                              |
 | Do you provide publicly-available instructions for building your software from the source code? | Yes    | in GH, there is docs for building the software               |
-| Can you build, or package, your software using an automated tool? | No     | run the essential bash                                       |
+| Can you build, or package, your software using an automated tool? | No     | users need run the essential bash  step by step                                    |
 | Do you provide publicly-available instructions for deploying your software? | Yes    | in GH                                                        |
 | Does your documentation list all third-party dependencies?   | Yes    | in GH                                                        |
 | Does your documentation list the version number for all third-party dependencies? | No     | not all the third party dependencies                         |
 | Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional? | Yes    | in GH, Readme.md shows all the info                          |
 | Can you download dependencies using a dependency management tool or package manager? | Yes    | python requirements                                          |
 | Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? | Yes    |                                                              |
-| Do you have an automated test suite for your software?       | Yes    |                                                              |
+| Do you have an automated test suite for your software?       | No    |                                                              |
 | Do you have a framework to periodically run your tests on the latest version of the source code? | No     | no any framework for the test                                |
 | Do you use continuous integration, automatically running tests whenever changes are made to your source code? | Yes     |                                            |
 | Are your test results publicly visible?                      | Yes    | in GH                           |
