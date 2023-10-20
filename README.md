@@ -9,6 +9,7 @@
 ![Static Badge](https://img.shields.io/badge/black-black.svg?label=Code%20formatters)
 ![Static Badge](https://img.shields.io/badge/flake-blue.svg?label=Style%20Checkers)
 ![Static Badge](https://img.shields.io/badge/flake-redl.svg?label=Syntax%20Checkers)
+[![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
 
 
 
@@ -18,7 +19,7 @@
     
 </a>
 <a href="https://github.com/Michaellzd/cheapBuy_new/fork" target="blank">
-<img src="https://img.shields.io/github/forks/freakleesin/cheapBuy?style=flat-square" alt="cheapBuy forks"/>
+<img src="https://img.shields.io/github/forks/Michaellzd/cheapBuy_new?style=flat-square" alt="cheapBuy forks"/>
 </a>
 <a href="https://github.com/Michaellzd/cheapBuy_new/stargazers" target="blank">
 <img src="https://img.shields.io/github/stars/freakleesin/cheapBuy?style=flat-square" alt="gcheapBuy stars"/>
@@ -29,8 +30,6 @@
 <a href="https://github.com/freakleesin/cheapBuy/issues" target="blank">
 <img src="https://img.shields.io/github/issues-closed/Michaellzd/cheapBuy_new" alt="cheapBuy issues closed"/>
 </a>
-<a href="https://github.com/freakleesin/cheapBuy/pulls" target="blank">
-<img src="https://img.shields.io/github/issues-pr/anshulp2912/cheapBuy?style=flat-square" alt="cheapBuy pull-requests"/>
 <a href="https://github.com/Michaellzd/cheapBuy_new/graphs/commit-activity" alt="commit activity">
 <img src="https://img.shields.io/github/commit-activity/w/Michaellzd/cheapBuy_new" /></a> 
 <a href="https://img.shields.io/github/repo-size/Michaellzd/cheapBuy_new" alt="repo size">
