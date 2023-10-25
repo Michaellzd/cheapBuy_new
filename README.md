@@ -65,7 +65,9 @@
 - **Get alternative website for the product**
 - **Highlight Cheapest product**
 - **Send Cheapest product to users' emails**
-- **Regularly crawl information and send desired products to customers via email.** 
+- **Regularly crawl information and send desired products to customers via email.**
+- **Cancel anytime easily with the email service.** 
+
 
 
 
